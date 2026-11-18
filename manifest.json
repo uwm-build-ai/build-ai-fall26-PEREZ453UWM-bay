@@ -92,5 +92,40 @@
     "note": "ship it"
    }
   ]
+ },
+ "my_brief": {
+  "sha": "013726199f8affdde17027bcd54d26d4b8d9303d",
+  "entry": "module_08/app.md",
+  "files": [
+   "module_08/app.md",
+   "module_08/welcome.md",
+   "module_08/zim.yaml",
+   "module_08/pitch.yaml",
+   "module_08/map.md",
+   "module_08/features.yaml",
+   "module_01/cv.md"
+  ],
+  "by": "PEREZ453UWM",
+  "engine": "4c12a71",
+  "at": "2026-11-18T21:11:39.476Z",
+  "history": [
+   {
+    "sha": "013726199f8affdde17027bcd54d26d4b8d9303d",
+    "at": "2026-11-18T21:11:39.476Z",
+    "entry": "module_08/app.md",
+    "engine": "4c12a71",
+    "parts": [
+     "import",
+     "persona",
+     "pitch",
+     "runner",
+     "dataset",
+     "datagrid",
+     "tabs"
+    ],
+    "todo": 0,
+    "note": "ship 1"
+   }
+  ]
  }
 }
