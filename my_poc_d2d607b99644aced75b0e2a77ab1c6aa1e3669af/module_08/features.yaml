@@ -1,0 +1,72 @@
+- so_that: >-
+    I can find open photography quests in one place and spend less time asking
+    around for work.
+  as_a: Freelance photographer
+  headline: Filtered Quest Board
+  i_want: >-
+    I want a quest board where I can filter open assignments by skill and see
+    their deadlines.
+  value_why: Centralizes jobs, cuts search time dramatically.
+  business_value: 70
+  tech_note: >-
+    comment: Filters improve discoverability.; advice: Use indexed fields for
+    fast queries.; risk: Complex filters may slow page load.
+  effort: 13
+  feature: feature_01
+- so_that: >-
+    I can find photography quests that fit my skills without scrolling through
+    every open assignment.
+  as_a: Freelance photographer
+  headline: AI Quest Suggestions
+  i_want: >-
+    I want AI to suggest open quests based on my skills, completed work, and
+    ratings of past matches.
+  value_why: Personalized matches reduce scrolling, speeds discovery.
+  business_value: 65
+  tech_note: >-
+    comment: AI matches increase relevance.; risk: Bias in suggestions could
+    miss niche opportunities.; suggestion: Include explicit user feedback loop.
+  effort: 8
+- so_that: >-
+    I can check whether a suggested quest interests me and fits my schedule
+    before I commit.
+  as_a: Freelance photographer
+  headline: Quest Review & Accept
+  i_want: >-
+    I want to review the scope, required skills, and deadline, then select
+    Confirm & Accept if I want the quest.
+  value_why: Ensures fit before commitment, avoids wasted effort.
+  business_value: 55
+  tech_note: >-
+    comment: Clear acceptance reduces miscommunication.; advice: Show concise
+    summary before confirming.; risk: Accidental acceptance if UI ambiguous.
+  effort: 13
+- so_that: >-
+    I can tell Campfire whether a finished quest was a good fit so I spend less
+    time reviewing poor matches next week.
+  as_a: Freelance photographer
+  headline: Post‑Quest Rating
+  i_want: >-
+    I want to rate how well a quest matched my interests after I finish it and
+    have AI use that rating to improve future suggestions.
+  value_why: Feedback loop refines AI, saves future search time.
+  business_value: 50
+  tech_note: >-
+    comment: Ratings refine recommendation engine.; risk: Manipulated ratings
+    could distort AI learning.; suggestion: Allow anonymous rating option.
+  effort: 2
+- so_that: >-
+    I can show examples of my completed photography work when I look for my next
+    assignment.
+  as_a: Freelance photographer
+  headline: Auto Portfolio Update
+  i_want: >-
+    I want my profile to automatically show the completed quest and my submitted
+    work after my project manager approves it.
+  value_why: Showcases work, attracts higher‑pay clients efficiently.
+  business_value: 60
+  tech_note: >-
+    comment: Auto portfolio showcases credibility.; advice: Verify manager
+    approval before publishing.; risk: Premature publishing may expose
+    unfinished work.
+  effort: 13
